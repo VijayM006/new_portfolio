@@ -1,13 +1,7 @@
 from flask import Flask, render_template, request, flash, redirect, url_for, send_from_directory
 from flask_mail import Mail, Message
 import os
-from dotenv import load_dotenv
-
-
-load_dotenv()
-
 app = Flask(__name__)
-
 # Secret Key
 app.secret_key = "your_secret_key_here"
 
