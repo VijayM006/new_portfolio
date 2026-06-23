@@ -83,7 +83,7 @@ def contact():
 def resume():
  return send_from_directory(
         directory='static', 
-        path='resume.pdf', 
+        path='Vijay_Resume.pdf', 
         as_attachment=True, 
         download_name='Vijay_Resume.pdf'
     )
